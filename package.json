@@ -1,0 +1,28 @@
+{
+  "name": "test_app",
+  "version": "1.0.0",
+  "description": "generating numbers and retrieving them by id",
+  "main": "test_task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dm-vasil/Randnum-generator-nodejs.git"
+  },
+  "keywords": [
+    "generator",
+    "unique_id",
+    "saved_state"
+  ],
+  "author": "dm-vasil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dm-vasil/Randnum-generator-nodejs/issues"
+  },
+  "homepage": "https://github.com/dm-vasil/Randnum-generator-nodejs#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}
